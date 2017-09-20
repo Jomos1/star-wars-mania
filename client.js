@@ -1,13 +1,15 @@
-
+let WHYYYYYYYYYYY = [];
 
 $("button").click(function(){
 	$.ajax({
 		url:"https://swapi.co/api/films/",
 		type: "GET",
 		success: function getFilmData (data){
-				console.log(data);
+				WHYYYYYYYYYYY.push(JSON.parse);
+				console.log(WHYYYYYYYYYYY);
 		},
 	});
 });
+
 
 // console.log("die")
